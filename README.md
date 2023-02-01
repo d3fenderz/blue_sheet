@@ -14,7 +14,7 @@ While this is a cheat sheet, this is not exhaustive at all. TO BE CONTINUED inde
 
 ![](beback.gif)
 
-## Nmapping
+## Nmap
 
 These are my favorite [Nmap](https://nmap.org/) commands:
 
