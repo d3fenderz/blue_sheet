@@ -198,15 +198,20 @@ sigcheck.exe -vt {FILE}
 
 ## Memory analysis
 
-### Linux dumps
+### Linux
 
 ```
+# dump
 head /dev/mem | hexdump -C
+
+# analysis
+gcore -o {file} {PID}
+cat /proc/{PID}/smaps > results.txt
 ```
 
 Use [Volatility](https://volatility3.readthedocs.io) for analysis.
 
-### Windows dumps
+### Windows
 
 Use [Volatility](https://volatility3.readthedocs.io) for analysis.
 
