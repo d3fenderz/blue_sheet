@@ -52,7 +52,7 @@ script.ps1
 
 Just type the path to your exec on the console and press enter.
 
-## Inspecting the Network
+## Inspect the Network
 
 ### Linux network
 
@@ -87,7 +87,7 @@ hostnamectl
 Get-ComputerInfo
 ```
 
-## Inspecting files
+## Inspect files
 
 ### Linux files
 
@@ -114,7 +114,7 @@ forfiles /S /M *.txt /C "cmd /c echo @path @file @fdate @ftime"
 sigcheck -u -e c:\windows\system32
 ```
 
-## Changing passwords
+## Change passwords
 
 ### Linux passwords
 
@@ -138,7 +138,7 @@ net {USER} *
 net {USER} * /{DOMAIN}
 ```
 
-## Stopping processes
+## Stop processes
 
 ### Linux processes
 
@@ -156,7 +156,7 @@ wmic process {PROCESS} delete
 Stop-Process -Name {PROCESS}
 ```
 
-## Disabling services
+## Disable services
 
 ### Linux services
 
@@ -172,7 +172,7 @@ sc query
 sc stop {SERVICE}
 ```
 
-## Malware analysis
+## Analyze alware
 
 ### Linux malware - inspection
 
@@ -196,7 +196,7 @@ hexdump -C -n 250 {FILE}
 sigcheck.exe -vt {FILE}
 ```
 
-## Memory analysis
+## Analyze Memory
 
 ### Linux
 
