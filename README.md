@@ -233,3 +233,7 @@ poweroff
 ```
 shutdown /s /t 0
 ```
+
+## Powershell Commands
+
+[Personal cheat sheet](https://github.com/jmau111-org/powershell_commands)
