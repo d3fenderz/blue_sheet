@@ -218,4 +218,4 @@ Use [Volatility](https://volatility3.readthedocs.io) for analysis.
 ### Other useful resources
 
 * [Volshell](https://volatility3.readthedocs.io/en/latest/volshell.html): direct introspection and access to all features of the volatility library from within a command line environment
-* [Valgring](https://valgrind.org/)
+* [Valgrind](https://valgrind.org/)
