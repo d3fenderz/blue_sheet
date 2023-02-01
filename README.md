@@ -198,7 +198,7 @@ sigcheck.exe -vt {FILE}
 
 ## Analyze Memory
 
-### Linux
+### Linux memory
 
 ```
 # dump
@@ -211,7 +211,7 @@ cat /proc/{PID}/smaps > results.txt
 
 Use [Volatility](https://volatility3.readthedocs.io) for analysis.
 
-### Windows
+### Windows memory
 
 Use [Volatility](https://volatility3.readthedocs.io) for analysis.
 
@@ -219,3 +219,17 @@ Use [Volatility](https://volatility3.readthedocs.io) for analysis.
 
 * [Volshell](https://volatility3.readthedocs.io/en/latest/volshell.html): direct introspection and access to all features of the volatility library from within a command line environment
 * [Valgrind](https://valgrind.org/): the memcheck tool can analyze memory errors (overflows, leaks)
+
+## Shutdown
+
+### Linux off
+
+```
+poweroff
+```
+
+### Windows off
+
+```
+shutdown /s /t 0
+```
