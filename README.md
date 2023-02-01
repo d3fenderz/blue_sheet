@@ -87,7 +87,7 @@ hostnamectl
 Get-ComputerInfo
 ```
 
-## INspect files
+## Inspecting files
 
 ### Linux files
 
