@@ -31,23 +31,6 @@ nmap -Pn -sU -sT {IP}
 
 However, it's best if you can send the output to a txt file or use the export option `-o` with additional formats to customize the output. For example, `-oG` followed by the path to your output files allows saving all results in a structured format.
 
-## Scanners
-
-### Linux scanners
-
-* lynis
-* linPEAS
-* chkrootkit
-* maldetect
-
-### Windows scanners
-
-* winPEAS
-* SeatBelt
-* PowerSploit
-
-While some of them may appear as attacking tools, you can use them as a defender to spot weaknesses.
-
 ## Run executables
 
 ### Linux exec
@@ -69,7 +52,7 @@ script.ps1
 
 Just type the path to your exec on the console and press enter.
 
-## INspecting the Network
+## Inspecting the Network
 
 ### Linux network
 
