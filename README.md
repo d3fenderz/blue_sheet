@@ -1,6 +1,6 @@
 # Blue Sheet
 
-![GitHub last commit](https://img.shields.io/github/last-commit/jmau111-org/blue_sheet?label=last%20update%3A)
+![GitHub last commit](https://img.shields.io/github/last-commit/d3fenderz/blue_sheet?label=last%20update%3A)
 
 Cheat sheet for the Blue Team 🧢
 
@@ -182,8 +182,6 @@ strings {FILE} | less
 file -i {FILE}
 ```
 
-[Find more commands here](https://raw.githubusercontent.com/jmau111-org/checkmyfile/main/checkmyfile)
-
 ### Windows malware - inspection
 
 ```
@@ -236,4 +234,4 @@ shutdown /s /t 0
 
 ## Powershell Commands
 
-[Personal cheat sheet](https://github.com/jmau111-org/powershell_commands)
+[Personal cheat sheet](https://github.com/d3fenderz/powershell_commands)
