@@ -73,6 +73,16 @@ net view /all
 arp -a 
 ```
 
+## Best filters for Wireshark
+
+### Detecting Nmap or Massscan
+
+The following filter can spot half-open TCP connections that are used to bypass basic detection and logging systems:
+
+```
+tcp.flags.syn==1 and tcp.flags.ack==0 and tcp.window_size <= 1024
+```
+
 ## Review the hardware
 
 ### Linux system
