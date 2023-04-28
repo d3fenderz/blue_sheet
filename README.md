@@ -245,3 +245,10 @@ shutdown /s /t 0
 ## Powershell Commands
 
 [Personal cheat sheet](https://github.com/d3fenderz/powershell_commands)
+
+## Monitoring
+
+### Linux packages
+ 
+* `whowatch` (very handy)
+* `htop` (instead of the pre-packaged `top` on some distros)
